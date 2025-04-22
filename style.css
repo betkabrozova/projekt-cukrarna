@@ -32,4 +32,104 @@ html { box-sizing: border-box; }
 body {
 	margin: 0;
 }
+section{
+	margin:80px auto;
+	max-width: 1100px;
+}
+h1 {
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+  }
 
+h2 {
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+  }
+a{
+	font-family: "Lora", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	color: black;
+}
+  
+p {
+	font-family: "Lora", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+header{
+	display: flex;
+	margin: 30px auto;
+	justify-content: space-between;
+	max-width: 1100px;
+}
+
+.logo{
+	width: 170px;
+}
+.menu{
+	display: flex;
+	justify-content:space-between ;
+}
+li{
+	list-style: none;
+}
+li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+li a:hover{
+	background-color:#f195b2 ;
+	color: white;
+}
+.mufin{
+	background: url(images/cupcake.jpg);
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: center;
+
+}
+.muftext{
+	max-width: 660px;
+	margin: 0px auto;
+    	
+}
+.prazdny{
+	max-width: 440px;
+}
+.vitejte{
+	max-width: 1100px;
+	display: flex;
+	margin: 80px auto;
+	justify-content: space-between;
+}
+.vlevo{
+	
+	max-width: 535px;
+}
+.nasevyrobky{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 40px;
+	border-radius: 30px;
+	background-color:#f195b2 ;
+	color: white;
+}
+.nasevyrobky:hover{
+	background-color:#d2567d ;
+}
+.cukrarka{
+	max-width: 535px;
+}
