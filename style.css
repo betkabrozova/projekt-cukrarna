@@ -102,11 +102,17 @@ li a:hover{
 	justify-content: center;
 
 }
-.muftext{
-	max-width: 660px;
+.mufinova{
+	max-width: 1100px;
 	margin: 0px auto;
+	position: relative;
+
+}
+.muftext{
+	max-width: 60%;
+	
 	color: white;
-    	
+	
 }
 
 /*sekce vitejte*/
